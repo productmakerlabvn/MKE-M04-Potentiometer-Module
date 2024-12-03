@@ -96,6 +96,9 @@ Mạch biến trở MKE-M04 potentiometer module thuộc hệ sinh thái phần 
 
 - Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
 - Chọn **My Projects / Import** / Import URL theo đường link của chương trình mẫu:
+
+        https://github.com/devmakerlabvn/makecode-mke-m04-potentiometer-module
+
 - Kết nối **Micro:bit với máy tính** và **nạp chương trình**.
 - Kết nối mạch **Micro:bit với MakerEdu Shield**, kết nối màn hình LCD vào cổng [I2C] trên MakerEdu Shield, kết nối module MKE-M04 vào chân [P0], và động cơ RC Servo vào chân [P12] **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
 
