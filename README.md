@@ -66,6 +66,8 @@ Mạch biến trở MKE-M04 potentiometer module thuộc hệ sinh thái phần 
 
 - [Mạch Micro:bit V2](https://hshop.vn/products/kit-hoc-lap-trinh-stem-cho-tre-em-micro-bit-v2) hoặc các phiên bản tương thích.
 - [Mạch MakerEdu Shield for Micro:bit](https://www.makerlab.vn/microbitsd)
+- [Mạch hiển thị MKE-M07 LCD1602 I2C module](https://www.makerlab.vn/mkem07)
+- [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
 
 ### Hướng dẫn sử dụng với Arduino (Code C)
   
@@ -75,7 +77,7 @@ Mạch biến trở MKE-M04 potentiometer module thuộc hệ sinh thái phần 
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MAKERLABVN" by MakerLab.vn**
 - Mở chương trình mẫu **"MKE_M04_Potentiometer_LCD_Serial.ino"** tại **File / Examples / MAKERLABVN / Module / MKE_M04_Potentiometer_LCD_Serial** hoặc [tải chương trình mẫu tại đây](/arduino)
 - Chọn board là **Arduino Uno** (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng **COM Port** của mạch và tiến hành nạp chương trình.
-- Kết nối mạch **Vietduino Uno** với **MakerEdu Shield**, kết nối Mạch hiển thị MKE-M07 LCD1602 I2C module và mạch biến trở MKE-M04 potentiometer module.
+- Kết nối mạch **Vietduino Uno** với **MakerEdu Shield**, kết nối mạch hiển thị MKE-M07 LCD1602 I2C module và mạch biến trở MKE-M04 potentiometer module.
 
 ### Hướng dẫn lập trình với mBlock (kéo thả khối)
 
@@ -95,7 +97,7 @@ Mạch biến trở MKE-M04 potentiometer module thuộc hệ sinh thái phần 
 - Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
 - Chọn **My Projects / Import** / Import URL theo đường link của chương trình mẫu:
 - Kết nối **Micro:bit với máy tính** và **nạp chương trình**.
-- Kết nối mạch **Micro:bit với MakerEdu Shield**, kết nối màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
+- Kết nối mạch **Micro:bit với MakerEdu Shield**, kết nối màn hình LCD vào cổng [I2C] trên MakerEdu Shield, kết nối module MKE-M04 vào chân [P0], và động cơ RC Servo vào chân [P12] **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
 
 ## Hỗ trợ và liên hệ
 
